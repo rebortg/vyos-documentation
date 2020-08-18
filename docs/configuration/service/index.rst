@@ -4,5 +4,5 @@ Service
 
 
 .. toctree::
-
-    console-server
+   :maxdepth: 1
+   :includehidden:

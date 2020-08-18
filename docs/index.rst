@@ -5,16 +5,46 @@ VyOS User Guide
 ###############
 
 
+.. toctree::
+   :maxdepth: 2
+   :hidden:
+   :caption: Content
+
+   introducing/about
+   introducing/history
+   introducing/releases
+   changelog/index
+
 
 .. toctree::
-   :glob:
    :maxdepth: 2
-   :numbered:
+   :hidden:
    :includehidden:
+   :caption: find caption name
 
-   introducing
-   changelog
-   quickstart
+   quickstart/index
    installation/index
-   cli/index
+   cli
+   
+.. toctree::
+   :maxdepth: 2
+   :hidden:
+   :includehidden:
+   :caption: Adminguide
+
+
    configuration/index
+   systemoperation/index
+   troubleshooting/index
+   configexamples/index
+
+
+.. toctree::
+   :maxdepth: 2
+   :hidden:
+   :includehidden:
+   :caption: Contributing
+
+
+   contributing/index
+   copyright

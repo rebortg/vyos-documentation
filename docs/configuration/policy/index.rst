@@ -1,7 +1,6 @@
 ######
-System
+Policy
 ######
-
 
 .. toctree::
    :maxdepth: 1

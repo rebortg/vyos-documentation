@@ -1,0 +1,4 @@
+.. opcmd:: renew dhcp interface <interface>
+.. opcmd:: renew dhcpv6 interface <interface>
+
+   Renew DHCP client lease for specified interface
