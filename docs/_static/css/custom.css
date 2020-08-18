@@ -25,6 +25,10 @@ td p a.cmdlink {
   margin-left: 0px;
 }
 
+tr td p {
+  margin-bottom:0px
+ }
+
 span.opcmd:before {
   content: "$";
   margin-right: 0px;
