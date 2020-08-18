@@ -153,7 +153,7 @@ latex_documents = [
 
 # The name of an image file (relative to this directory) to place at the top of
 # the title page.
-latex_logo = '_static/images/vyos-logo.png'
+latex_logo = '_static/images/vyos-logo.jpg'
 
 # -- Options for manual page output ------------------------------------------
 

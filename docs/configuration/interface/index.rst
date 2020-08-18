@@ -1,8 +1,0 @@
-#########
-Interface
-#########
-
-
-.. toctree::
-
-    ethernet
