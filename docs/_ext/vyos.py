@@ -338,20 +338,9 @@ def process_coverage(app, fromdocname, doccmd, xmlcmd, cli_type):
         int_docs += 1
         coverage_list[strip_cmd(cmd['cmd'])] = dict(coverage_item)
     
-    print(len(xmlcmd))
-    print("")
-    print("")
-    print("")
-    print("")
-    print("")
-    print("")
     for cmd in xmlcmd:
         
         strip = strip_cmd(cmd['cmd'])
-        if "showinterfacespseudo-ethernet" == strip:
-            print("----")
-            print(cmd)
-            print("----")
         if strip not in coverage_list.keys():
             coverage_item = {
                 'doccmd': None,
