@@ -12,3 +12,10 @@ jobs:
       uses: errata-ai/vale-action@v1.3.0
       env:
         GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+    - name: Setup Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.x'
+    - name: Test with pytest
+      run: |
+        python .github/vyos-linter.py
