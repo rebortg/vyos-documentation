@@ -100,10 +100,10 @@ def handle_file(path, file):
         return False
 
 
-def main():
+def main(): 
     bool_error = True
     # TODO: path and/or files via cli arg
-    for root, dirs, files in os.walk("../docs"):
+    for root, dirs, files in os.walk("docs"):
         path = root.split(os.sep)
         for file in files:
             if file[-4:] == ".rst":
