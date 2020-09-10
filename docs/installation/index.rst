@@ -1,23 +1,14 @@
-############
-Installation
-############
+#################################
+Installation and Image Management
+#################################
 
 
 
-iso
-###
+.. toctree::
+   :maxdepth: 2
+   :caption: Content
 
-select iso
-==========
-
-Build
------
-
-LTS
----
-
-
-virt
-####
-
-
+   install
+   update
+   image
+   
