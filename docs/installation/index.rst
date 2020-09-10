@@ -9,6 +9,7 @@ Installation and Image Management
    :caption: Content
 
    install
+   virtual/index
+   cloud/index
    update
    image
-   
