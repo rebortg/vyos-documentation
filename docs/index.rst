@@ -34,7 +34,9 @@ VyOS User Guide
 
 
    configuration/index
+   operation/index
    systemoperation/index
+   automation/index
    troubleshooting/index
    configexamples/index
 
