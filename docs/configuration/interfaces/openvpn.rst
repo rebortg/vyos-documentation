@@ -465,8 +465,8 @@ A complete LDAP auth OpenVPN configuration could look like the following example
        }
    }
 
-Client
-======
+Client config
+=============
 
 VyOS can not only act as an OpenVPN site-to-site or Server for multiple clients.
 You can indeed also configure any VyOS OpenVPN interface as an OpenVPN client
@@ -478,7 +478,7 @@ static client IP address to the OpenVPN client. Remember, clients are identified
 using their CN attribute in the SSL certificate.
 
 Server
-------
+******
 
 .. code-block:: none
 
@@ -502,7 +502,7 @@ Server
   set interfaces openvpn vtun10 use-lzo-compression
 
 Client
-------
+******
 
 .. code-block:: none
 
@@ -542,4 +542,4 @@ Will add ``push "keepalive 1 10"`` to the generated OpenVPN config file.
    quotes. This is done through a hack on our config generator. You can pass
    quotes using the ``&quot;`` statement.
 
-.. include:: ../common-references.rst
+.. include:: ../../common-references.rst

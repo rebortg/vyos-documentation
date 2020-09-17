@@ -357,7 +357,7 @@ Configuration
 -------------
 
 Step 1: DHCP
-""""""""""""
+^^^^^^^^^^^^
 
 Configure a DHCP server to provide the client with:
 
@@ -385,7 +385,7 @@ In this example we configured an existent VyOS as the DHCP server:
 .. _install_from_tftp:
 
 Step 2: TFTP
-""""""""""""
+^^^^^^^^^^^^
 
 Configure a TFTP server so that it serves the following:
 
@@ -444,7 +444,7 @@ Example of simple (no menu) configuration file:
    APPEND initrd=initrd.img-4.19.54-amd64-vyos boot=live nopersistence noautologin nonetworking fetch=http://address:8000/filesystem.squashfs
 
 Step 3: HTTP
-""""""""""""
+^^^^^^^^^^^^
 
 As you can read in the configuration file, we are sending ``filesystem.squashfs``
 through HTTP. As that is a heavy file, we choose HTTP to speed up the transfer
@@ -484,7 +484,7 @@ Known Issues
 This is a list of known issues that can arise during installation.
 
 Black screen on install
-^^^^^^^^^^^^^^^^^^^^^^^
+-----------------------
 
 GRUB attempts to redirect all output to a serial port for ease of installation on headless hosts.
 This appears to cause an hard lockup on some hardware that lacks a serial port, with the result being a 

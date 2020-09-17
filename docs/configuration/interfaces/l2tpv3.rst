@@ -1,9 +1,11 @@
-.. include:: ../_include/need_improvement.txt
-
 .. _l2tpv3-interface:
 
 L2TPv3
 ------
+
+.. todo::
+
+  improve
 
 L2TPv3 is a pseudowire protocol, you can read more about on `Wikipedia L2TPv3`_
 or in :rfc:`3921`

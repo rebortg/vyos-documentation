@@ -1,10 +1,12 @@
-.. include:: _include/need_improvement.txt
-
 .. _nptv6:
 
 #####
 NPTv6
 #####
+
+.. todo::
+
+  improve
 
 :abbr:`NPTv6 (Network Prefix Translation)` is a form of NAT for IPv6. It's
 described in :rfc:`6296`.

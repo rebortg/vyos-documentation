@@ -1,9 +1,11 @@
-.. include:: ../_include/need_improvement.txt
-
 .. _qinq-interface:
 
 QinQ (802.1ad)
 --------------
+
+.. todo::
+
+    improve
 
 IEEE 802.1ad was an Ethernet networking standard informally known as QinQ as
 an amendment to IEEE standard :ref:`vlan-interface`. 802.1ad was incorporated

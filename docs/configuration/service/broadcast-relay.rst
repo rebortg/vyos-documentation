@@ -1,8 +1,8 @@
 .. _udp_broadcast_relay:
 
-###################
-UDP Broadcast Relay
-###################
+###############
+Broadcast Relay
+###############
 
 Certain vendors use broadcasts to identify their equipment within one ethernet
 segment. Unfortunately if you split your network with multiple VLANs you loose

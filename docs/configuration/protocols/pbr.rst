@@ -1,9 +1,11 @@
-.. include:: ../_include/need_improvement.txt
-
 .. _routing-pbr:
 
 PBR
 ---
+
+.. todo::
+
+  improve
 
 :abbr:`PBR (Policy-Based Routing)` allowing traffic to be assigned to
 different routing tables. Traffic can be matched using standard 5-tuple
@@ -57,7 +59,7 @@ Routing tables that will be used in this example are:
 * ``main`` Routing table used by VyOS and other interfaces not
   participating in PBR
 
-.. figure:: ../_static/images/pbr_example_1.png
+.. figure:: /_static/images/pbr_example_1.png
    :scale: 80 %
    :alt: PBR multiple uplinks
 

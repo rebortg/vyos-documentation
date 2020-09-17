@@ -8,7 +8,7 @@ VyOS User Guide
 .. toctree::
    :maxdepth: 2
    :hidden:
-   :caption: Content
+   :caption: FIND CAPTION NAME
 
    introducing/about
    introducing/history
@@ -35,7 +35,6 @@ VyOS User Guide
 
    configuration/index
    operation/index
-   systemoperation/index
    automation/index
    troubleshooting/index
    configexamples/index

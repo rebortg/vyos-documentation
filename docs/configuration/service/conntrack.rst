@@ -1,7 +1,9 @@
-.. include:: ../_include/need_improvement.txt
-
 Conntrack
 ---------
+
+.. todo::
+
+  improve
 
 One of the important features built on top of the Netfilter framework is
 connection tracking. Connection tracking allows the kernel to keep track of all

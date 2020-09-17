@@ -11,10 +11,11 @@ Interfaces
    bridge
    dummy
    ethernet
-   gneve
+   geneve
    l2tpv3
    loopback
    macsec
+   openvpn
    pppoe
    pseudo-ethernet
    tunnel
