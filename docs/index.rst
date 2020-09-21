@@ -20,10 +20,10 @@ VyOS User Guide
    :maxdepth: 2
    :hidden:
    :includehidden:
-   :caption: find caption name
+   :caption: first steps
 
-   quickstart/index
    installation/index
+   quickstart/index
    cli
    
 .. toctree::
