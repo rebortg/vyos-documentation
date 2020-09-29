@@ -17,6 +17,7 @@ System
    host-name
    ip
    ipv6
+   lcd
    login
    name-server
    name-servers-dhcp

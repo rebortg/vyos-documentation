@@ -203,7 +203,7 @@ vytask
 
 When referencing to VyOS Phabricator Tasks, there is a custom Sphinx Markup
 command called ``vytask`` which automatically renders to a proper Phabricator
-URL. This is heavily used in the :ref:`release-notes` section.
+URL. This is heavily used in the release-notes section.
 
 .. code-block:: none
 

@@ -18,3 +18,4 @@ This chapter contains various configuration Examples
    azure-vpn-dual-bgp
    tunnelbroker-ipv6
    ha
+   gre-ipsec

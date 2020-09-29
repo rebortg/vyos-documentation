@@ -15,7 +15,7 @@ serial converter (Prolific PL2303 or FTDI FT232/FT4232 based chips).
 If you happened to use a Cisco NM-16A - Sixteen Port Async Network Module or
 NM-32A - Thirty-two Port Async Network Module - this is your VyOS replacement.
 
-For USB port information please refor to: :ref:`hardware_usb`.
+For USB port information please refor to: hardware_usb.
 
 Configuration
 =============

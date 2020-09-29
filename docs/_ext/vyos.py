@@ -208,10 +208,7 @@ class CmdDirective(SphinxDirective):
     has_content = True
     custom_class = ''
 
-    def run(self):
-
-
-        
+    def run(self):        
 
         title_list = []
         content_list = []
@@ -230,12 +227,6 @@ class CmdDirective(SphinxDirective):
             has_body = True
         else:
             title_text = ' '.join(self.content)
-        
-        if self.env.docname == 'cli':
-            print(self.env.docname)
-            print(self.env.metadata)
-            print(dir(self.content))
-            print(title_text)
 
         anchor_id = nodes.make_id(self.custom_class + "cmd-" + title_text)
         target = nodes.target(ids=[anchor_id])

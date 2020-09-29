@@ -10,5 +10,5 @@ Contributing
    debugging
    development
    documentation
-   isssues-features
+   issues-features
    upstream-packages

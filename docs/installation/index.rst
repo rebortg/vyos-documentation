@@ -9,7 +9,10 @@ Installation and Image Management
    :caption: Content
 
    install
+   iso
    virtual/index
    cloud/index
    update
    image
+   migrate-from-vyatta
+   ../vyos-on-baremetal

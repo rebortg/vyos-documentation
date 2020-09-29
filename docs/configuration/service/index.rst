@@ -20,6 +20,7 @@ Service
    lldp
    mdns
    pppoe-advert
+   pppoe-server
    router-advert
    salt-minion
    snmp
