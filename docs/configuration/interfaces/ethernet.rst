@@ -7,6 +7,14 @@ Ethernet
 Configuration
 #############
 
+1.1.1.1
+
+1.1.1.1
+
+vyos
+
+
+
 Address
 -------
 
