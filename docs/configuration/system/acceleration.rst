@@ -1,2 +1,7 @@
-acceleration
+.. _acceleration:
+
 ############
+Acceleration
+############
+
+
