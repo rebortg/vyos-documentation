@@ -7,6 +7,7 @@ Comand Line Interface
 
 .. include:: _include/vif.rst
 
+1.1.1.1
 
 The VyOS :abbr:`CLI (Command-Line Interface)` comprises an
 operational and a configuration mode.
