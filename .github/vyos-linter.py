@@ -159,4 +159,5 @@ def main():
 
 if __name__ == "__main__":
     if main() == False:
-        exit(1)
+        #exit(1)
+        pass
