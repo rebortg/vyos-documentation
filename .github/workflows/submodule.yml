@@ -9,7 +9,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
         with:
-          repository: vyos/vyos-documentation
+          repository: rebortg/vyos-documentation
       - name: update submodule
         run: |
           cd docs/_include/vyos-1x
