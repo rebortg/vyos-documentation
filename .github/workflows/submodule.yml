@@ -12,9 +12,10 @@ jobs:
           repository: rebortg/vyos-documentation
       - name: update submodule
         run: |
-          git checkout master
-          git submodule update --init --force
-          git submodule foreach git pull --rebase
+          git submodule status
+          cd docs/_include/vyos-1x
+          git checkout current
+          git pull
           git submodule status
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v3
