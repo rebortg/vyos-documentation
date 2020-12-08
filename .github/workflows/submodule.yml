@@ -12,10 +12,9 @@ jobs:
           repository: rebortg/vyos-documentation
       - name: update submodule
         run: |
-          cd docs/_include/vyos-1x
-          git pull
+          git submodule foreach git pull
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v3
         with:
-          token: ${{ secrets.PAT }}
+          token: ${{secrets.GITHUB_TOKEN}}
           branch: submodul-update
