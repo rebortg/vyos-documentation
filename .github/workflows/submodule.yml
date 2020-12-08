@@ -13,6 +13,7 @@ jobs:
       - name: update submodule
         run: |
           git submodule status
+          git submodule update --init --force
           cd docs/_include/vyos-1x
           git checkout current
           git pull
