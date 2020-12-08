@@ -17,4 +17,6 @@ jobs:
         uses: peter-evans/create-pull-request@v3
         with:
           token: ${{secrets.GITHUB_TOKEN}}
-          branch: master
+          commit-message: Update vyos-1x submodule
+          title: Update vyos-1x submodule
+          branch: update-dependencies
