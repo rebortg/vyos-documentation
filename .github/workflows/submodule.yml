@@ -12,6 +12,7 @@ jobs:
           repository: rebortg/vyos-documentation
       - name: update submodule
         run: |
+          git checkout master
           git submodule update --init --force
           git submodule foreach git pull --rebase
           git submodule status
