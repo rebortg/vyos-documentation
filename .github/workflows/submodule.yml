@@ -1,0 +1,20 @@
+name: Update submodule vyos-1x
+on:
+  schedule:
+    - cron:  '0 0 * * 0'
+jobs:
+  updateFork:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          repository: vyos/vyos-documentation
+      - name: update submodule
+        run: |
+          cd docs/_include/vyos-1x
+          git pull
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v3
+        with:
+          token: ${{ secrets.PAT }}
+          branch: submodul-update
