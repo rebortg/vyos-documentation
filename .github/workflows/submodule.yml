@@ -1,7 +1,15 @@
 name: Update submodule vyos-1x
 on:
-  schedule:
-    - cron:  '*/15 * * * *'
+  workflow_dispatch:
+    inputs:
+      logLevel:
+        description: 'Log level'     
+        required: true
+        default: 'warning'
+      tags:
+        description: 'Test scenario tags'  
+  #schedule:
+  #  - cron:  '*/15 * * * *'
 jobs:
   updateFork:
     runs-on: ubuntu-latest
