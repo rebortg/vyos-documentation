@@ -13,7 +13,7 @@ jobs:
           submodules: True
       - name: update submodule
         run: |
-          git submodule foreach git pull --rebase
+          git submodule foreach git pull -f
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v3
         with:
