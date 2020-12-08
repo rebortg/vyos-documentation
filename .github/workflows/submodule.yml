@@ -13,6 +13,7 @@ jobs:
           submodules: recursive
       - name: update submodule
         run: |
+          git submodule status
           git submodule foreach git pull --rebase
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v3
