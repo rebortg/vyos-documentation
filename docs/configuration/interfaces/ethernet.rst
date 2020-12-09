@@ -83,6 +83,13 @@ QinQ (802.1ad)
    :var0: ethernet
    :var1: eth0
 
+
+Port Mirror (SPAN)
+==================
+.. cmdinclude:: ../../_include/interface-vlan-8021ad.txt
+   :var0: ethernet
+
+
 *********
 Operation
 *********
