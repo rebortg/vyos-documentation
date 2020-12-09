@@ -4,6 +4,8 @@
 Ethernet
 ########
 
+1.1.1.1
+
 This will be the most widely used interface on a router carrying traffic to the
 real world.
 
