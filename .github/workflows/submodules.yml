@@ -29,4 +29,4 @@ jobs:
           title: Update vyos-1x submodule
           body: |
             Autoupdate vyos-1x submodule
-          branch: update-dependencies
+          #branch: update-dependencies
