@@ -180,7 +180,7 @@ texinfo_documents = [
 
 # sitemap
 html_baseurl = 'https://rtd-test3.readthedocs.io/en/latest'
-sitemap_filename = "sitemap.xml"
+sitemap_filename = "sitemapvyos.xml"
 
 
 def setup(app):
