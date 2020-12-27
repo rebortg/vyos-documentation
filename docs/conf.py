@@ -45,6 +45,7 @@ extensions = ['sphinx.ext.intersphinx',
               'sphinx.ext.ifconfig',
               'sphinx.ext.graphviz',
               'notfound.extension',
+              'sphinx_sitemap',
               'vyos'
 ]
 
@@ -176,6 +177,10 @@ texinfo_documents = [
      author, 'VyOS', 'One line description of project.',
      'Miscellaneous'),
 ]
+
+# sitemap
+html_baseurl = 'https://rtd-test3.readthedocs.io/en/latest'
+sitemap_filename = "sitemap.xml"
 
 
 def setup(app):
