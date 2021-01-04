@@ -3,7 +3,7 @@ on:
   workflow_dispatch:
   schedule:
   # 06:00 UTC on Monday
-    - cron:  '0 6 * * 1'
+    - cron:  '5 * * * *'
 jobs:
   updatVyOS-1x:
     runs-on: ubuntu-latest
