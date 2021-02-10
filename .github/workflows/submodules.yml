@@ -19,6 +19,10 @@ jobs:
           git checkout current
           git pull
           git submodule status
+      - name: update releasenotes
+        run: |
+          pip3 install phabricator
+          python3 docs/_ext/releasenotes.py -t ${{ secrets.PHABRICATOR_API }} -b current equuleus
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v3
         with:
