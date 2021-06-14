@@ -339,7 +339,7 @@ have the same structure to achieve a recognition factor.
 
 All RST files must follow the same TOC Level syntax and have to start with
 
-.. code-block::
+.. code-block:: none
 
    #####
    Titel
