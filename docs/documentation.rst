@@ -163,27 +163,27 @@ top of the headline.
 
 .. code-block::
 
-   Section A
-   ==========
+  Section A
+  ==========
 
-   Lorem ipsum dolor sit amet, consetetur sadipscing elitr
+  Lorem ipsum dolor sit amet, consetetur sadipscing elitr
 
-   Example
-   -------
+  Example
+  -------
 
-   Lorem ipsum dolor sit amet, consetetur sadipscing elitr
+  Lorem ipsum dolor sit amet, consetetur sadipscing elitr
 
-   Section B
-   ==========
+  Section B
+  ==========
 
-   Lorem ipsum dolor sit amet, consetetur sadipscing elitr
+  Lorem ipsum dolor sit amet, consetetur sadipscing elitr
    
-   .. _section B example:
+  .. _section B example:
 
-   Example
-   -------
+  Example
+  -------
 
-   Lorem ipsum dolor sit amet, consetetur sadipscing elitr
+  Lorem ipsum dolor sit amet, consetetur sadipscing elitr
 
 
 
