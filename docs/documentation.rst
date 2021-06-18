@@ -137,6 +137,7 @@ We use the following syntax for Headlines.
   Paragraphs
   """"""""""
 
+
 Cross-References
 ^^^^^^^^^^^^^^^^
 
@@ -184,10 +185,6 @@ top of the headline.
   -------
 
   Lorem ipsum dolor sit amet, consetetur sadipscing elitr
-
-
-
-
 
 
 Address space
