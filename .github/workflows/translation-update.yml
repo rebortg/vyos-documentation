@@ -1,0 +1,66 @@
+name: Translation Update 
+on:
+  workflow_dispatch:
+  schedule:
+  # 07:00 UTC on Monday
+    - cron:  '0 7 * * 1'
+
+jobs:
+  translation-update:
+    runs-on: ubuntu-latest
+    if: github.repository == 'vyos/vyos-documentation'
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          repository: ${{ github.repository }}
+
+      - uses: actions/setup-python@v2
+        with:
+          python-version: '3.10'
+
+      - name: Install Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r ./requirements.txt
+
+      - name: Install Transifex CLI
+        # do anything in a temp dir b/c of a LICENCE file
+        run: |
+          mkdir temp
+          cd temp
+          curl -o- https://raw.githubusercontent.com/transifex/cli/v1.4.1/install.sh | bash
+          mv tx /usr/local/bin/tx
+          cd ..
+          rm -rf temp
+      
+      - name: update tx files and config
+        run: |
+          sh .tx/tx.sh
+      
+      - name: push new resources
+        run: |
+          tx push -s
+        env:
+          TX_TOKEN: ${{ secrets.TX_TOKEN }}
+      
+      - name: pull translations
+        # -l de_DE,uk_UA
+        # if add a language also add a lang_map
+        run: |
+          tx pull --mode onlyreviewed --use-git-timestamps -l de_DE
+        env:
+          TX_TOKEN: ${{ secrets.TX_TOKEN }}
+      
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v3
+        with:
+          token: ${{secrets.GITHUB_TOKEN}}
+          commit-message: "Github: update equuleus branch"
+          committer: GitHub <noreply@github.com>
+          author: ${{ github.actor }} <${{ github.actor }}@users.noreply.github.com>
+          title: "Github: update translations"
+          body: |
+            update resource files on transifex and pull reviewed translations
+          branch: update-translations
+          delete-branch: true
+      
