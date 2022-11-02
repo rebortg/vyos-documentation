@@ -1,3 +1,1117 @@
 [main]
 host     = https://www.transifex.com
 lang_map = de_DE: de
+
+[o:vyos:p:sagitta:r:404]
+file_filter   = docs/_locales/<lang>/LC_MESSAGES/404.po
+source_file   = docs/_build/gettext/404.pot
+type          = PO
+minimum_perc  = 0
+resource_name = 404
+
+[o:vyos:p:sagitta:r:automation_cloud-init]
+file_filter   = docs/_locales/<lang>/LC_MESSAGES/automation/cloud-init.po
+source_file   = docs/_build/gettext/automation/cloud-init.pot
+type          = PO
+minimum_perc  = 0
+resource_name = automation_cloud-init
+
+[o:vyos:p:sagitta:r:automation_command-scripting]
+file_filter   = docs/_locales/<lang>/LC_MESSAGES/automation/command-scripting.po
+source_file   = docs/_build/gettext/automation/command-scripting.pot
+type          = PO
+minimum_perc  = 0
+resource_name = automation_command-scripting
+
+[o:vyos:p:sagitta:r:automation_index]
+file_filter   = docs/_locales/<lang>/LC_MESSAGES/automation/index.po
+source_file   = docs/_build/gettext/automation/index.pot
+type          = PO
+minimum_perc  = 0
+resource_name = automation_index
+
+[o:vyos:p:sagitta:r:automation_vyos-ansible]
+file_filter   = docs/_locales/<lang>/LC_MESSAGES/automation/vyos-ansible.po
+source_file   = docs/_build/gettext/automation/vyos-ansible.pot
+type          = PO
+minimum_perc  = 0
+resource_name = automation_vyos-ansible
+
+[o:vyos:p:sagitta:r:automation_vyos-api]
+file_filter   = docs/_locales/<lang>/LC_MESSAGES/automation/vyos-api.po
+source_file   = docs/_build/gettext/automation/vyos-api.pot
+type          = PO
+minimum_perc  = 0
+resource_name = automation_vyos-api
+
+[o:vyos:p:sagitta:r:automation_vyos-napalm]
+file_filter   = docs/_locales/<lang>/LC_MESSAGES/automation/vyos-napalm.po
+source_file   = docs/_build/gettext/automation/vyos-napalm.pot
+type          = PO
+minimum_perc  = 0
+resource_name = automation_vyos-napalm
+
+[o:vyos:p:sagitta:r:automation_vyos-netmiko]
+file_filter   = docs/_locales/<lang>/LC_MESSAGES/automation/vyos-netmiko.po
+source_file   = docs/_build/gettext/automation/vyos-netmiko.pot
+type          = PO
+minimum_perc  = 0
+resource_name = automation_vyos-netmiko
+
+[o:vyos:p:sagitta:r:cli]
+file_filter   = docs/_locales/<lang>/LC_MESSAGES/cli.po
+source_file   = docs/_build/gettext/cli.pot
+type          = PO
+minimum_perc  = 0
+resource_name = cli
+
+[o:vyos:p:sagitta:r:configexamples_autotest_DHCPRelay_through_GRE_DHCPRelay_through_GRE]
+file_filter   = docs/_locales/<lang>/LC_MESSAGES/configexamples/autotest/DHCPRelay_through_GRE/DHCPRelay_through_GRE.po
+source_file   = docs/_build/gettext/configexamples/autotest/DHCPRelay_through_GRE/DHCPRelay_through_GRE.pot
+type          = PO
+minimum_perc  = 0
+resource_name = configexamples_autotest_DHCPRelay_through_GRE_DHCPRelay_through_GRE
+
+[o:vyos:p:sagitta:r:configexamples_autotest_L3VPN_EVPN_L3VPN_EVPN]
+file_filter   = docs/_locales/<lang>/LC_MESSAGES/configexamples/autotest/L3VPN_EVPN/L3VPN_EVPN.po
+source_file   = docs/_build/gettext/configexamples/autotest/L3VPN_EVPN/L3VPN_EVPN.pot
+type          = PO
+minimum_perc  = 0
+resource_name = configexamples_autotest_L3VPN_EVPN_L3VPN_EVPN
+
+[o:vyos:p:sagitta:r:configexamples_autotest_Wireguard_Wireguard]
+file_filter   = docs/_locales/<lang>/LC_MESSAGES/configexamples/autotest/Wireguard/Wireguard.po
+source_file   = docs/_build/gettext/configexamples/autotest/Wireguard/Wireguard.pot
+type          = PO
+minimum_perc  = 0
+resource_name = configexamples_autotest_Wireguard_Wireguard
+
+[o:vyos:p:sagitta:r:configexamples_autotest_tunnelbroker_tunnelbroker]
+file_filter   = docs/_locales/<lang>/LC_MESSAGES/configexamples/autotest/tunnelbroker/tunnelbroker.po
+source_file   = docs/_build/gettext/configexamples/autotest/tunnelbroker/tunnelbroker.pot
+type          = PO
+minimum_perc  = 0
+resource_name = configexamples_autotest_tunnelbroker_tunnelbroker
+
+[o:vyos:p:sagitta:r:configexamples_azure-vpn-bgp]
+file_filter   = docs/_locales/<lang>/LC_MESSAGES/configexamples/azure-vpn-bgp.po
+source_file   = docs/_build/gettext/configexamples/azure-vpn-bgp.pot
+type          = PO
+minimum_perc  = 0
+resource_name = configexamples_azure-vpn-bgp
+
+[o:vyos:p:sagitta:r:configexamples_azure-vpn-dual-bgp]
+file_filter   = docs/_locales/<lang>/LC_MESSAGES/configexamples/azure-vpn-dual-bgp.po
+source_file   = docs/_build/gettext/configexamples/azure-vpn-dual-bgp.pot
+type          = PO
+minimum_perc  = 0
+resource_name = configexamples_azure-vpn-dual-bgp
+
+[o:vyos:p:sagitta:r:configexamples_bgp-ipv6-unnumbered]
+file_filter   = docs/_locales/<lang>/LC_MESSAGES/configexamples/bgp-ipv6-unnumbered.po
+source_file   = docs/_build/gettext/configexamples/bgp-ipv6-unnumbered.pot
+type          = PO
+minimum_perc  = 0
+resource_name = configexamples_bgp-ipv6-unnumbered
+
+[o:vyos:p:sagitta:r:configexamples_ha]
+file_filter   = docs/_locales/<lang>/LC_MESSAGES/configexamples/ha.po
+source_file   = docs/_build/gettext/configexamples/ha.pot
+type          = PO
+minimum_perc  = 0
+resource_name = configexamples_ha
+
+[o:vyos:p:sagitta:r:configexamples_index]
+file_filter   = docs/_locales/<lang>/LC_MESSAGES/configexamples/index.po
+source_file   = docs/_build/gettext/configexamples/index.pot
+type          = PO
+minimum_perc  = 0
+resource_name = configexamples_index
+
+[o:vyos:p:sagitta:r:configexamples_inter-vrf-routing-vrf-lite]
+file_filter   = docs/_locales/<lang>/LC_MESSAGES/configexamples/inter-vrf-routing-vrf-lite.po
+source_file   = docs/_build/gettext/configexamples/inter-vrf-routing-vrf-lite.pot
+type          = PO
+minimum_perc  = 0
+resource_name = configexamples_inter-vrf-routing-vrf-lite
+
+[o:vyos:p:sagitta:r:configexamples_l3vpn-hub-and-spoke]
+file_filter   = docs/_locales/<lang>/LC_MESSAGES/configexamples/l3vpn-hub-and-spoke.po
+source_file   = docs/_build/gettext/configexamples/l3vpn-hub-and-spoke.pot
+type          = PO
+minimum_perc  = 0
+resource_name = configexamples_l3vpn-hub-and-spoke
+
+[o:vyos:p:sagitta:r:configexamples_ospf-unnumbered]
+file_filter   = docs/_locales/<lang>/LC_MESSAGES/configexamples/ospf-unnumbered.po
+source_file   = docs/_build/gettext/configexamples/ospf-unnumbered.pot
+type          = PO
+minimum_perc  = 0
+resource_name = configexamples_ospf-unnumbered
+
+[o:vyos:p:sagitta:r:configexamples_pppoe-ipv6-basic]
+file_filter   = docs/_locales/<lang>/LC_MESSAGES/configexamples/pppoe-ipv6-basic.po
+source_file   = docs/_build/gettext/configexamples/pppoe-ipv6-basic.pot
+type          = PO
+minimum_perc  = 0
+resource_name = configexamples_pppoe-ipv6-basic
+
+[o:vyos:p:sagitta:r:configexamples_wan-load-balancing]
+file_filter   = docs/_locales/<lang>/LC_MESSAGES/configexamples/wan-load-balancing.po
+source_file   = docs/_build/gettext/configexamples/wan-load-balancing.pot
+type          = PO
+minimum_perc  = 0
+resource_name = configexamples_wan-load-balancing
+
+[o:vyos:p:sagitta:r:configexamples_zone-policy]
+file_filter   = docs/_locales/<lang>/LC_MESSAGES/configexamples/zone-policy.po
+source_file   = docs/_build/gettext/configexamples/zone-policy.pot
+type          = PO
+minimum_perc  = 0
+resource_name = configexamples_zone-policy
+
+[o:vyos:p:sagitta:r:configuration_container_index]
+file_filter   = docs/_locales/<lang>/LC_MESSAGES/configuration/container/index.po
+source_file   = docs/_build/gettext/configuration/container/index.pot
+type          = PO
+minimum_perc  = 0
+resource_name = configuration_container_index
+
+[o:vyos:p:sagitta:r:configuration_firewall_general]
+file_filter   = docs/_locales/<lang>/LC_MESSAGES/configuration/firewall/general.po
+source_file   = docs/_build/gettext/configuration/firewall/general.pot
+type          = PO
+minimum_perc  = 0
+resource_name = configuration_firewall_general
+
+[o:vyos:p:sagitta:r:configuration_firewall_index]
+file_filter   = docs/_locales/<lang>/LC_MESSAGES/configuration/firewall/index.po
+source_file   = docs/_build/gettext/configuration/firewall/index.pot
+type          = PO
+minimum_perc  = 0
+resource_name = configuration_firewall_index
+
+[o:vyos:p:sagitta:r:configuration_firewall_zone]
+file_filter   = docs/_locales/<lang>/LC_MESSAGES/configuration/firewall/zone.po
+source_file   = docs/_build/gettext/configuration/firewall/zone.pot
+type          = PO
+minimum_perc  = 0
+resource_name = configuration_firewall_zone
+
+[o:vyos:p:sagitta:r:configuration_highavailability_index]
+file_filter   = docs/_locales/<lang>/LC_MESSAGES/configuration/highavailability/index.po
+source_file   = docs/_build/gettext/configuration/highavailability/index.pot
+type          = PO
+minimum_perc  = 0
+resource_name = configuration_highavailability_index
+
+[o:vyos:p:sagitta:r:configuration_index]
+file_filter   = docs/_locales/<lang>/LC_MESSAGES/configuration/index.po
+source_file   = docs/_build/gettext/configuration/index.pot
+type          = PO
+minimum_perc  = 0
+resource_name = configuration_index
+
+[o:vyos:p:sagitta:r:configuration_interfaces_bonding]
+file_filter   = docs/_locales/<lang>/LC_MESSAGES/configuration/interfaces/bonding.po
+source_file   = docs/_build/gettext/configuration/interfaces/bonding.pot
+type          = PO
+minimum_perc  = 0
+resource_name = configuration_interfaces_bonding
+
+[o:vyos:p:sagitta:r:configuration_interfaces_bridge]
+file_filter   = docs/_locales/<lang>/LC_MESSAGES/configuration/interfaces/bridge.po
+source_file   = docs/_build/gettext/configuration/interfaces/bridge.pot
+type          = PO
+minimum_perc  = 0
+resource_name = configuration_interfaces_bridge
+
+[o:vyos:p:sagitta:r:configuration_interfaces_dummy]
+file_filter   = docs/_locales/<lang>/LC_MESSAGES/configuration/interfaces/dummy.po
+source_file   = docs/_build/gettext/configuration/interfaces/dummy.pot
+type          = PO
+minimum_perc  = 0
+resource_name = configuration_interfaces_dummy
+
+[o:vyos:p:sagitta:r:configuration_interfaces_ethernet]
+file_filter   = docs/_locales/<lang>/LC_MESSAGES/configuration/interfaces/ethernet.po
+source_file   = docs/_build/gettext/configuration/interfaces/ethernet.pot
+type          = PO
+minimum_perc  = 0
+resource_name = configuration_interfaces_ethernet
+
+[o:vyos:p:sagitta:r:configuration_interfaces_geneve]
+file_filter   = docs/_locales/<lang>/LC_MESSAGES/configuration/interfaces/geneve.po
+source_file   = docs/_build/gettext/configuration/interfaces/geneve.pot
+type          = PO
+minimum_perc  = 0
+resource_name = configuration_interfaces_geneve
+
+[o:vyos:p:sagitta:r:configuration_interfaces_index]
+file_filter   = docs/_locales/<lang>/LC_MESSAGES/configuration/interfaces/index.po
+source_file   = docs/_build/gettext/configuration/interfaces/index.pot
+type          = PO
+minimum_perc  = 0
+resource_name = configuration_interfaces_index
+
+[o:vyos:p:sagitta:r:configuration_interfaces_l2tpv3]
+file_filter   = docs/_locales/<lang>/LC_MESSAGES/configuration/interfaces/l2tpv3.po
+source_file   = docs/_build/gettext/configuration/interfaces/l2tpv3.pot
+type          = PO
+minimum_perc  = 0
+resource_name = configuration_interfaces_l2tpv3
+
+[o:vyos:p:sagitta:r:configuration_interfaces_loopback]
+file_filter   = docs/_locales/<lang>/LC_MESSAGES/configuration/interfaces/loopback.po
+source_file   = docs/_build/gettext/configuration/interfaces/loopback.pot
+type          = PO
+minimum_perc  = 0
+resource_name = configuration_interfaces_loopback
+
+[o:vyos:p:sagitta:r:configuration_interfaces_macsec]
+file_filter   = docs/_locales/<lang>/LC_MESSAGES/configuration/interfaces/macsec.po
+source_file   = docs/_build/gettext/configuration/interfaces/macsec.pot
+type          = PO
+minimum_perc  = 0
+resource_name = configuration_interfaces_macsec
+
+[o:vyos:p:sagitta:r:configuration_interfaces_openvpn]
+file_filter   = docs/_locales/<lang>/LC_MESSAGES/configuration/interfaces/openvpn.po
+source_file   = docs/_build/gettext/configuration/interfaces/openvpn.pot
+type          = PO
+minimum_perc  = 0
+resource_name = configuration_interfaces_openvpn
+
+[o:vyos:p:sagitta:r:configuration_interfaces_pppoe]
+file_filter   = docs/_locales/<lang>/LC_MESSAGES/configuration/interfaces/pppoe.po
+source_file   = docs/_build/gettext/configuration/interfaces/pppoe.pot
+type          = PO
+minimum_perc  = 0
+resource_name = configuration_interfaces_pppoe
+
+[o:vyos:p:sagitta:r:configuration_interfaces_pseudo-ethernet]
+file_filter   = docs/_locales/<lang>/LC_MESSAGES/configuration/interfaces/pseudo-ethernet.po
+source_file   = docs/_build/gettext/configuration/interfaces/pseudo-ethernet.pot
+type          = PO
+minimum_perc  = 0
+resource_name = configuration_interfaces_pseudo-ethernet
+
+[o:vyos:p:sagitta:r:configuration_interfaces_tunnel]
+file_filter   = docs/_locales/<lang>/LC_MESSAGES/configuration/interfaces/tunnel.po
+source_file   = docs/_build/gettext/configuration/interfaces/tunnel.pot
+type          = PO
+minimum_perc  = 0
+resource_name = configuration_interfaces_tunnel
+
+[o:vyos:p:sagitta:r:configuration_interfaces_vti]
+file_filter   = docs/_locales/<lang>/LC_MESSAGES/configuration/interfaces/vti.po
+source_file   = docs/_build/gettext/configuration/interfaces/vti.pot
+type          = PO
+minimum_perc  = 0
+resource_name = configuration_interfaces_vti
+
+[o:vyos:p:sagitta:r:configuration_interfaces_vxlan]
+file_filter   = docs/_locales/<lang>/LC_MESSAGES/configuration/interfaces/vxlan.po
+source_file   = docs/_build/gettext/configuration/interfaces/vxlan.pot
+type          = PO
+minimum_perc  = 0
+resource_name = configuration_interfaces_vxlan
+
+[o:vyos:p:sagitta:r:configuration_interfaces_wireguard]
+file_filter   = docs/_locales/<lang>/LC_MESSAGES/configuration/interfaces/wireguard.po
+source_file   = docs/_build/gettext/configuration/interfaces/wireguard.pot
+type          = PO
+minimum_perc  = 0
+resource_name = configuration_interfaces_wireguard
+
+[o:vyos:p:sagitta:r:configuration_interfaces_wireless]
+file_filter   = docs/_locales/<lang>/LC_MESSAGES/configuration/interfaces/wireless.po
+source_file   = docs/_build/gettext/configuration/interfaces/wireless.pot
+type          = PO
+minimum_perc  = 0
+resource_name = configuration_interfaces_wireless
+
+[o:vyos:p:sagitta:r:configuration_interfaces_wwan]
+file_filter   = docs/_locales/<lang>/LC_MESSAGES/configuration/interfaces/wwan.po
+source_file   = docs/_build/gettext/configuration/interfaces/wwan.pot
+type          = PO
+minimum_perc  = 0
+resource_name = configuration_interfaces_wwan
+
+[o:vyos:p:sagitta:r:configuration_loadbalancing_index]
+file_filter   = docs/_locales/<lang>/LC_MESSAGES/configuration/loadbalancing/index.po
+source_file   = docs/_build/gettext/configuration/loadbalancing/index.pot
+type          = PO
+minimum_perc  = 0
+resource_name = configuration_loadbalancing_index
+
+[o:vyos:p:sagitta:r:configuration_nat_index]
+file_filter   = docs/_locales/<lang>/LC_MESSAGES/configuration/nat/index.po
+source_file   = docs/_build/gettext/configuration/nat/index.pot
+type          = PO
+minimum_perc  = 0
+resource_name = configuration_nat_index
+
+[o:vyos:p:sagitta:r:configuration_nat_nat44]
+file_filter   = docs/_locales/<lang>/LC_MESSAGES/configuration/nat/nat44.po
+source_file   = docs/_build/gettext/configuration/nat/nat44.pot
+type          = PO
+minimum_perc  = 0
+resource_name = configuration_nat_nat44
+
+[o:vyos:p:sagitta:r:configuration_nat_nat66]
+file_filter   = docs/_locales/<lang>/LC_MESSAGES/configuration/nat/nat66.po
+source_file   = docs/_build/gettext/configuration/nat/nat66.pot
+type          = PO
+minimum_perc  = 0
+resource_name = configuration_nat_nat66
+
+[o:vyos:p:sagitta:r:configuration_pki_index]
+file_filter   = docs/_locales/<lang>/LC_MESSAGES/configuration/pki/index.po
+source_file   = docs/_build/gettext/configuration/pki/index.pot
+type          = PO
+minimum_perc  = 0
+resource_name = configuration_pki_index
+
+[o:vyos:p:sagitta:r:configuration_policy_access-list]
+file_filter   = docs/_locales/<lang>/LC_MESSAGES/configuration/policy/access-list.po
+source_file   = docs/_build/gettext/configuration/policy/access-list.pot
+type          = PO
+minimum_perc  = 0
+resource_name = configuration_policy_access-list
+
+[o:vyos:p:sagitta:r:configuration_policy_as-path-list]
+file_filter   = docs/_locales/<lang>/LC_MESSAGES/configuration/policy/as-path-list.po
+source_file   = docs/_build/gettext/configuration/policy/as-path-list.pot
+type          = PO
+minimum_perc  = 0
+resource_name = configuration_policy_as-path-list
+
+[o:vyos:p:sagitta:r:configuration_policy_community-list]
+file_filter   = docs/_locales/<lang>/LC_MESSAGES/configuration/policy/community-list.po
+source_file   = docs/_build/gettext/configuration/policy/community-list.pot
+type          = PO
+minimum_perc  = 0
+resource_name = configuration_policy_community-list
+
+[o:vyos:p:sagitta:r:configuration_policy_examples]
+file_filter   = docs/_locales/<lang>/LC_MESSAGES/configuration/policy/examples.po
+source_file   = docs/_build/gettext/configuration/policy/examples.pot
+type          = PO
+minimum_perc  = 0
+resource_name = configuration_policy_examples
+
+[o:vyos:p:sagitta:r:configuration_policy_extcommunity-list]
+file_filter   = docs/_locales/<lang>/LC_MESSAGES/configuration/policy/extcommunity-list.po
+source_file   = docs/_build/gettext/configuration/policy/extcommunity-list.pot
+type          = PO
+minimum_perc  = 0
+resource_name = configuration_policy_extcommunity-list
+
+[o:vyos:p:sagitta:r:configuration_policy_index]
+file_filter   = docs/_locales/<lang>/LC_MESSAGES/configuration/policy/index.po
+source_file   = docs/_build/gettext/configuration/policy/index.pot
+type          = PO
+minimum_perc  = 0
+resource_name = configuration_policy_index
+
+[o:vyos:p:sagitta:r:configuration_policy_large-community-list]
+file_filter   = docs/_locales/<lang>/LC_MESSAGES/configuration/policy/large-community-list.po
+source_file   = docs/_build/gettext/configuration/policy/large-community-list.pot
+type          = PO
+minimum_perc  = 0
+resource_name = configuration_policy_large-community-list
+
+[o:vyos:p:sagitta:r:configuration_policy_local-route]
+file_filter   = docs/_locales/<lang>/LC_MESSAGES/configuration/policy/local-route.po
+source_file   = docs/_build/gettext/configuration/policy/local-route.pot
+type          = PO
+minimum_perc  = 0
+resource_name = configuration_policy_local-route
+
+[o:vyos:p:sagitta:r:configuration_policy_prefix-list]
+file_filter   = docs/_locales/<lang>/LC_MESSAGES/configuration/policy/prefix-list.po
+source_file   = docs/_build/gettext/configuration/policy/prefix-list.pot
+type          = PO
+minimum_perc  = 0
+resource_name = configuration_policy_prefix-list
+
+[o:vyos:p:sagitta:r:configuration_policy_route]
+file_filter   = docs/_locales/<lang>/LC_MESSAGES/configuration/policy/route.po
+source_file   = docs/_build/gettext/configuration/policy/route.pot
+type          = PO
+minimum_perc  = 0
+resource_name = configuration_policy_route
+
+[o:vyos:p:sagitta:r:configuration_policy_route-map]
+file_filter   = docs/_locales/<lang>/LC_MESSAGES/configuration/policy/route-map.po
+source_file   = docs/_build/gettext/configuration/policy/route-map.pot
+type          = PO
+minimum_perc  = 0
+resource_name = configuration_policy_route-map
+
+[o:vyos:p:sagitta:r:configuration_protocols_bfd]
+file_filter   = docs/_locales/<lang>/LC_MESSAGES/configuration/protocols/bfd.po
+source_file   = docs/_build/gettext/configuration/protocols/bfd.pot
+type          = PO
+minimum_perc  = 0
+resource_name = configuration_protocols_bfd
+
+[o:vyos:p:sagitta:r:configuration_protocols_bgp]
+file_filter   = docs/_locales/<lang>/LC_MESSAGES/configuration/protocols/bgp.po
+source_file   = docs/_build/gettext/configuration/protocols/bgp.pot
+type          = PO
+minimum_perc  = 0
+resource_name = configuration_protocols_bgp
+
+[o:vyos:p:sagitta:r:configuration_protocols_igmp]
+file_filter   = docs/_locales/<lang>/LC_MESSAGES/configuration/protocols/igmp.po
+source_file   = docs/_build/gettext/configuration/protocols/igmp.pot
+type          = PO
+minimum_perc  = 0
+resource_name = configuration_protocols_igmp
+
+[o:vyos:p:sagitta:r:configuration_protocols_index]
+file_filter   = docs/_locales/<lang>/LC_MESSAGES/configuration/protocols/index.po
+source_file   = docs/_build/gettext/configuration/protocols/index.pot
+type          = PO
+minimum_perc  = 0
+resource_name = configuration_protocols_index
+
+[o:vyos:p:sagitta:r:configuration_protocols_isis]
+file_filter   = docs/_locales/<lang>/LC_MESSAGES/configuration/protocols/isis.po
+source_file   = docs/_build/gettext/configuration/protocols/isis.pot
+type          = PO
+minimum_perc  = 0
+resource_name = configuration_protocols_isis
+
+[o:vyos:p:sagitta:r:configuration_protocols_mpls]
+file_filter   = docs/_locales/<lang>/LC_MESSAGES/configuration/protocols/mpls.po
+source_file   = docs/_build/gettext/configuration/protocols/mpls.pot
+type          = PO
+minimum_perc  = 0
+resource_name = configuration_protocols_mpls
+
+[o:vyos:p:sagitta:r:configuration_protocols_ospf]
+file_filter   = docs/_locales/<lang>/LC_MESSAGES/configuration/protocols/ospf.po
+source_file   = docs/_build/gettext/configuration/protocols/ospf.pot
+type          = PO
+minimum_perc  = 0
+resource_name = configuration_protocols_ospf
+
+[o:vyos:p:sagitta:r:configuration_protocols_rip]
+file_filter   = docs/_locales/<lang>/LC_MESSAGES/configuration/protocols/rip.po
+source_file   = docs/_build/gettext/configuration/protocols/rip.pot
+type          = PO
+minimum_perc  = 0
+resource_name = configuration_protocols_rip
+
+[o:vyos:p:sagitta:r:configuration_protocols_rpki]
+file_filter   = docs/_locales/<lang>/LC_MESSAGES/configuration/protocols/rpki.po
+source_file   = docs/_build/gettext/configuration/protocols/rpki.pot
+type          = PO
+minimum_perc  = 0
+resource_name = configuration_protocols_rpki
+
+[o:vyos:p:sagitta:r:configuration_protocols_static]
+file_filter   = docs/_locales/<lang>/LC_MESSAGES/configuration/protocols/static.po
+source_file   = docs/_build/gettext/configuration/protocols/static.pot
+type          = PO
+minimum_perc  = 0
+resource_name = configuration_protocols_static
+
+[o:vyos:p:sagitta:r:configuration_service_broadcast-relay]
+file_filter   = docs/_locales/<lang>/LC_MESSAGES/configuration/service/broadcast-relay.po
+source_file   = docs/_build/gettext/configuration/service/broadcast-relay.pot
+type          = PO
+minimum_perc  = 0
+resource_name = configuration_service_broadcast-relay
+
+[o:vyos:p:sagitta:r:configuration_service_conntrack-sync]
+file_filter   = docs/_locales/<lang>/LC_MESSAGES/configuration/service/conntrack-sync.po
+source_file   = docs/_build/gettext/configuration/service/conntrack-sync.pot
+type          = PO
+minimum_perc  = 0
+resource_name = configuration_service_conntrack-sync
+
+[o:vyos:p:sagitta:r:configuration_service_console-server]
+file_filter   = docs/_locales/<lang>/LC_MESSAGES/configuration/service/console-server.po
+source_file   = docs/_build/gettext/configuration/service/console-server.pot
+type          = PO
+minimum_perc  = 0
+resource_name = configuration_service_console-server
+
+[o:vyos:p:sagitta:r:configuration_service_dhcp-relay]
+file_filter   = docs/_locales/<lang>/LC_MESSAGES/configuration/service/dhcp-relay.po
+source_file   = docs/_build/gettext/configuration/service/dhcp-relay.pot
+type          = PO
+minimum_perc  = 0
+resource_name = configuration_service_dhcp-relay
+
+[o:vyos:p:sagitta:r:configuration_service_dhcp-server]
+file_filter   = docs/_locales/<lang>/LC_MESSAGES/configuration/service/dhcp-server.po
+source_file   = docs/_build/gettext/configuration/service/dhcp-server.pot
+type          = PO
+minimum_perc  = 0
+resource_name = configuration_service_dhcp-server
+
+[o:vyos:p:sagitta:r:configuration_service_dns]
+file_filter   = docs/_locales/<lang>/LC_MESSAGES/configuration/service/dns.po
+source_file   = docs/_build/gettext/configuration/service/dns.pot
+type          = PO
+minimum_perc  = 0
+resource_name = configuration_service_dns
+
+[o:vyos:p:sagitta:r:configuration_service_eventhandler]
+file_filter   = docs/_locales/<lang>/LC_MESSAGES/configuration/service/eventhandler.po
+source_file   = docs/_build/gettext/configuration/service/eventhandler.pot
+type          = PO
+minimum_perc  = 0
+resource_name = configuration_service_eventhandler
+
+[o:vyos:p:sagitta:r:configuration_service_https]
+file_filter   = docs/_locales/<lang>/LC_MESSAGES/configuration/service/https.po
+source_file   = docs/_build/gettext/configuration/service/https.pot
+type          = PO
+minimum_perc  = 0
+resource_name = configuration_service_https
+
+[o:vyos:p:sagitta:r:configuration_service_index]
+file_filter   = docs/_locales/<lang>/LC_MESSAGES/configuration/service/index.po
+source_file   = docs/_build/gettext/configuration/service/index.pot
+type          = PO
+minimum_perc  = 0
+resource_name = configuration_service_index
+
+[o:vyos:p:sagitta:r:configuration_service_ipoe-server]
+file_filter   = docs/_locales/<lang>/LC_MESSAGES/configuration/service/ipoe-server.po
+source_file   = docs/_build/gettext/configuration/service/ipoe-server.pot
+type          = PO
+minimum_perc  = 0
+resource_name = configuration_service_ipoe-server
+
+[o:vyos:p:sagitta:r:configuration_service_lldp]
+file_filter   = docs/_locales/<lang>/LC_MESSAGES/configuration/service/lldp.po
+source_file   = docs/_build/gettext/configuration/service/lldp.pot
+type          = PO
+minimum_perc  = 0
+resource_name = configuration_service_lldp
+
+[o:vyos:p:sagitta:r:configuration_service_mdns]
+file_filter   = docs/_locales/<lang>/LC_MESSAGES/configuration/service/mdns.po
+source_file   = docs/_build/gettext/configuration/service/mdns.pot
+type          = PO
+minimum_perc  = 0
+resource_name = configuration_service_mdns
+
+[o:vyos:p:sagitta:r:configuration_service_monitoring]
+file_filter   = docs/_locales/<lang>/LC_MESSAGES/configuration/service/monitoring.po
+source_file   = docs/_build/gettext/configuration/service/monitoring.pot
+type          = PO
+minimum_perc  = 0
+resource_name = configuration_service_monitoring
+
+[o:vyos:p:sagitta:r:configuration_service_pppoe-server]
+file_filter   = docs/_locales/<lang>/LC_MESSAGES/configuration/service/pppoe-server.po
+source_file   = docs/_build/gettext/configuration/service/pppoe-server.pot
+type          = PO
+minimum_perc  = 0
+resource_name = configuration_service_pppoe-server
+
+[o:vyos:p:sagitta:r:configuration_service_router-advert]
+file_filter   = docs/_locales/<lang>/LC_MESSAGES/configuration/service/router-advert.po
+source_file   = docs/_build/gettext/configuration/service/router-advert.pot
+type          = PO
+minimum_perc  = 0
+resource_name = configuration_service_router-advert
+
+[o:vyos:p:sagitta:r:configuration_service_salt-minion]
+file_filter   = docs/_locales/<lang>/LC_MESSAGES/configuration/service/salt-minion.po
+source_file   = docs/_build/gettext/configuration/service/salt-minion.pot
+type          = PO
+minimum_perc  = 0
+resource_name = configuration_service_salt-minion
+
+[o:vyos:p:sagitta:r:configuration_service_snmp]
+file_filter   = docs/_locales/<lang>/LC_MESSAGES/configuration/service/snmp.po
+source_file   = docs/_build/gettext/configuration/service/snmp.pot
+type          = PO
+minimum_perc  = 0
+resource_name = configuration_service_snmp
+
+[o:vyos:p:sagitta:r:configuration_service_ssh]
+file_filter   = docs/_locales/<lang>/LC_MESSAGES/configuration/service/ssh.po
+source_file   = docs/_build/gettext/configuration/service/ssh.pot
+type          = PO
+minimum_perc  = 0
+resource_name = configuration_service_ssh
+
+[o:vyos:p:sagitta:r:configuration_service_tftp-server]
+file_filter   = docs/_locales/<lang>/LC_MESSAGES/configuration/service/tftp-server.po
+source_file   = docs/_build/gettext/configuration/service/tftp-server.pot
+type          = PO
+minimum_perc  = 0
+resource_name = configuration_service_tftp-server
+
+[o:vyos:p:sagitta:r:configuration_service_webproxy]
+file_filter   = docs/_locales/<lang>/LC_MESSAGES/configuration/service/webproxy.po
+source_file   = docs/_build/gettext/configuration/service/webproxy.pot
+type          = PO
+minimum_perc  = 0
+resource_name = configuration_service_webproxy
+
+[o:vyos:p:sagitta:r:configuration_system_acceleration]
+file_filter   = docs/_locales/<lang>/LC_MESSAGES/configuration/system/acceleration.po
+source_file   = docs/_build/gettext/configuration/system/acceleration.pot
+type          = PO
+minimum_perc  = 0
+resource_name = configuration_system_acceleration
+
+[o:vyos:p:sagitta:r:configuration_system_conntrack]
+file_filter   = docs/_locales/<lang>/LC_MESSAGES/configuration/system/conntrack.po
+source_file   = docs/_build/gettext/configuration/system/conntrack.pot
+type          = PO
+minimum_perc  = 0
+resource_name = configuration_system_conntrack
+
+[o:vyos:p:sagitta:r:configuration_system_console]
+file_filter   = docs/_locales/<lang>/LC_MESSAGES/configuration/system/console.po
+source_file   = docs/_build/gettext/configuration/system/console.pot
+type          = PO
+minimum_perc  = 0
+resource_name = configuration_system_console
+
+[o:vyos:p:sagitta:r:configuration_system_default-route]
+file_filter   = docs/_locales/<lang>/LC_MESSAGES/configuration/system/default-route.po
+source_file   = docs/_build/gettext/configuration/system/default-route.pot
+type          = PO
+minimum_perc  = 0
+resource_name = configuration_system_default-route
+
+[o:vyos:p:sagitta:r:configuration_system_flow-accounting]
+file_filter   = docs/_locales/<lang>/LC_MESSAGES/configuration/system/flow-accounting.po
+source_file   = docs/_build/gettext/configuration/system/flow-accounting.pot
+type          = PO
+minimum_perc  = 0
+resource_name = configuration_system_flow-accounting
+
+[o:vyos:p:sagitta:r:configuration_system_host-name]
+file_filter   = docs/_locales/<lang>/LC_MESSAGES/configuration/system/host-name.po
+source_file   = docs/_build/gettext/configuration/system/host-name.pot
+type          = PO
+minimum_perc  = 0
+resource_name = configuration_system_host-name
+
+[o:vyos:p:sagitta:r:configuration_system_index]
+file_filter   = docs/_locales/<lang>/LC_MESSAGES/configuration/system/index.po
+source_file   = docs/_build/gettext/configuration/system/index.pot
+type          = PO
+minimum_perc  = 0
+resource_name = configuration_system_index
+
+[o:vyos:p:sagitta:r:configuration_system_ip]
+file_filter   = docs/_locales/<lang>/LC_MESSAGES/configuration/system/ip.po
+source_file   = docs/_build/gettext/configuration/system/ip.pot
+type          = PO
+minimum_perc  = 0
+resource_name = configuration_system_ip
+
+[o:vyos:p:sagitta:r:configuration_system_ipv6]
+file_filter   = docs/_locales/<lang>/LC_MESSAGES/configuration/system/ipv6.po
+source_file   = docs/_build/gettext/configuration/system/ipv6.pot
+type          = PO
+minimum_perc  = 0
+resource_name = configuration_system_ipv6
+
+[o:vyos:p:sagitta:r:configuration_system_lcd]
+file_filter   = docs/_locales/<lang>/LC_MESSAGES/configuration/system/lcd.po
+source_file   = docs/_build/gettext/configuration/system/lcd.pot
+type          = PO
+minimum_perc  = 0
+resource_name = configuration_system_lcd
+
+[o:vyos:p:sagitta:r:configuration_system_login]
+file_filter   = docs/_locales/<lang>/LC_MESSAGES/configuration/system/login.po
+source_file   = docs/_build/gettext/configuration/system/login.pot
+type          = PO
+minimum_perc  = 0
+resource_name = configuration_system_login
+
+[o:vyos:p:sagitta:r:configuration_system_name-server]
+file_filter   = docs/_locales/<lang>/LC_MESSAGES/configuration/system/name-server.po
+source_file   = docs/_build/gettext/configuration/system/name-server.pot
+type          = PO
+minimum_perc  = 0
+resource_name = configuration_system_name-server
+
+[o:vyos:p:sagitta:r:configuration_system_ntp]
+file_filter   = docs/_locales/<lang>/LC_MESSAGES/configuration/system/ntp.po
+source_file   = docs/_build/gettext/configuration/system/ntp.pot
+type          = PO
+minimum_perc  = 0
+resource_name = configuration_system_ntp
+
+[o:vyos:p:sagitta:r:configuration_system_option]
+file_filter   = docs/_locales/<lang>/LC_MESSAGES/configuration/system/option.po
+source_file   = docs/_build/gettext/configuration/system/option.pot
+type          = PO
+minimum_perc  = 0
+resource_name = configuration_system_option
+
+[o:vyos:p:sagitta:r:configuration_system_proxy]
+file_filter   = docs/_locales/<lang>/LC_MESSAGES/configuration/system/proxy.po
+source_file   = docs/_build/gettext/configuration/system/proxy.pot
+type          = PO
+minimum_perc  = 0
+resource_name = configuration_system_proxy
+
+[o:vyos:p:sagitta:r:configuration_system_syslog]
+file_filter   = docs/_locales/<lang>/LC_MESSAGES/configuration/system/syslog.po
+source_file   = docs/_build/gettext/configuration/system/syslog.pot
+type          = PO
+minimum_perc  = 0
+resource_name = configuration_system_syslog
+
+[o:vyos:p:sagitta:r:configuration_system_task-scheduler]
+file_filter   = docs/_locales/<lang>/LC_MESSAGES/configuration/system/task-scheduler.po
+source_file   = docs/_build/gettext/configuration/system/task-scheduler.pot
+type          = PO
+minimum_perc  = 0
+resource_name = configuration_system_task-scheduler
+
+[o:vyos:p:sagitta:r:configuration_system_time-zone]
+file_filter   = docs/_locales/<lang>/LC_MESSAGES/configuration/system/time-zone.po
+source_file   = docs/_build/gettext/configuration/system/time-zone.pot
+type          = PO
+minimum_perc  = 0
+resource_name = configuration_system_time-zone
+
+[o:vyos:p:sagitta:r:configuration_trafficpolicy_index]
+file_filter   = docs/_locales/<lang>/LC_MESSAGES/configuration/trafficpolicy/index.po
+source_file   = docs/_build/gettext/configuration/trafficpolicy/index.pot
+type          = PO
+minimum_perc  = 0
+resource_name = configuration_trafficpolicy_index
+
+[o:vyos:p:sagitta:r:configuration_vpn_dmvpn]
+file_filter   = docs/_locales/<lang>/LC_MESSAGES/configuration/vpn/dmvpn.po
+source_file   = docs/_build/gettext/configuration/vpn/dmvpn.pot
+type          = PO
+minimum_perc  = 0
+resource_name = configuration_vpn_dmvpn
+
+[o:vyos:p:sagitta:r:configuration_vpn_index]
+file_filter   = docs/_locales/<lang>/LC_MESSAGES/configuration/vpn/index.po
+source_file   = docs/_build/gettext/configuration/vpn/index.pot
+type          = PO
+minimum_perc  = 0
+resource_name = configuration_vpn_index
+
+[o:vyos:p:sagitta:r:configuration_vpn_ipsec]
+file_filter   = docs/_locales/<lang>/LC_MESSAGES/configuration/vpn/ipsec.po
+source_file   = docs/_build/gettext/configuration/vpn/ipsec.pot
+type          = PO
+minimum_perc  = 0
+resource_name = configuration_vpn_ipsec
+
+[o:vyos:p:sagitta:r:configuration_vpn_l2tp]
+file_filter   = docs/_locales/<lang>/LC_MESSAGES/configuration/vpn/l2tp.po
+source_file   = docs/_build/gettext/configuration/vpn/l2tp.pot
+type          = PO
+minimum_perc  = 0
+resource_name = configuration_vpn_l2tp
+
+[o:vyos:p:sagitta:r:configuration_vpn_openconnect]
+file_filter   = docs/_locales/<lang>/LC_MESSAGES/configuration/vpn/openconnect.po
+source_file   = docs/_build/gettext/configuration/vpn/openconnect.pot
+type          = PO
+minimum_perc  = 0
+resource_name = configuration_vpn_openconnect
+
+[o:vyos:p:sagitta:r:configuration_vpn_pptp]
+file_filter   = docs/_locales/<lang>/LC_MESSAGES/configuration/vpn/pptp.po
+source_file   = docs/_build/gettext/configuration/vpn/pptp.pot
+type          = PO
+minimum_perc  = 0
+resource_name = configuration_vpn_pptp
+
+[o:vyos:p:sagitta:r:configuration_vpn_rsa-keys]
+file_filter   = docs/_locales/<lang>/LC_MESSAGES/configuration/vpn/rsa-keys.po
+source_file   = docs/_build/gettext/configuration/vpn/rsa-keys.pot
+type          = PO
+minimum_perc  = 0
+resource_name = configuration_vpn_rsa-keys
+
+[o:vyos:p:sagitta:r:configuration_vpn_site2site_ipsec]
+file_filter   = docs/_locales/<lang>/LC_MESSAGES/configuration/vpn/site2site_ipsec.po
+source_file   = docs/_build/gettext/configuration/vpn/site2site_ipsec.pot
+type          = PO
+minimum_perc  = 0
+resource_name = configuration_vpn_site2site_ipsec
+
+[o:vyos:p:sagitta:r:configuration_vpn_sstp]
+file_filter   = docs/_locales/<lang>/LC_MESSAGES/configuration/vpn/sstp.po
+source_file   = docs/_build/gettext/configuration/vpn/sstp.pot
+type          = PO
+minimum_perc  = 0
+resource_name = configuration_vpn_sstp
+
+[o:vyos:p:sagitta:r:configuration_vrf_index]
+file_filter   = docs/_locales/<lang>/LC_MESSAGES/configuration/vrf/index.po
+source_file   = docs/_build/gettext/configuration/vrf/index.pot
+type          = PO
+minimum_perc  = 0
+resource_name = configuration_vrf_index
+
+[o:vyos:p:sagitta:r:contributing_build-vyos]
+file_filter   = docs/_locales/<lang>/LC_MESSAGES/contributing/build-vyos.po
+source_file   = docs/_build/gettext/contributing/build-vyos.pot
+type          = PO
+minimum_perc  = 0
+resource_name = contributing_build-vyos
+
+[o:vyos:p:sagitta:r:contributing_debugging]
+file_filter   = docs/_locales/<lang>/LC_MESSAGES/contributing/debugging.po
+source_file   = docs/_build/gettext/contributing/debugging.pot
+type          = PO
+minimum_perc  = 0
+resource_name = contributing_debugging
+
+[o:vyos:p:sagitta:r:contributing_development]
+file_filter   = docs/_locales/<lang>/LC_MESSAGES/contributing/development.po
+source_file   = docs/_build/gettext/contributing/development.pot
+type          = PO
+minimum_perc  = 0
+resource_name = contributing_development
+
+[o:vyos:p:sagitta:r:contributing_issues-features]
+file_filter   = docs/_locales/<lang>/LC_MESSAGES/contributing/issues-features.po
+source_file   = docs/_build/gettext/contributing/issues-features.pot
+type          = PO
+minimum_perc  = 0
+resource_name = contributing_issues-features
+
+[o:vyos:p:sagitta:r:contributing_testing]
+file_filter   = docs/_locales/<lang>/LC_MESSAGES/contributing/testing.po
+source_file   = docs/_build/gettext/contributing/testing.pot
+type          = PO
+minimum_perc  = 0
+resource_name = contributing_testing
+
+[o:vyos:p:sagitta:r:contributing_upstream-packages]
+file_filter   = docs/_locales/<lang>/LC_MESSAGES/contributing/upstream-packages.po
+source_file   = docs/_build/gettext/contributing/upstream-packages.pot
+type          = PO
+minimum_perc  = 0
+resource_name = contributing_upstream-packages
+
+[o:vyos:p:sagitta:r:copyright]
+file_filter   = docs/_locales/<lang>/LC_MESSAGES/copyright.po
+source_file   = docs/_build/gettext/copyright.pot
+type          = PO
+minimum_perc  = 0
+resource_name = copyright
+
+[o:vyos:p:sagitta:r:documentation]
+file_filter   = docs/_locales/<lang>/LC_MESSAGES/documentation.po
+source_file   = docs/_build/gettext/documentation.pot
+type          = PO
+minimum_perc  = 0
+resource_name = documentation
+
+[o:vyos:p:sagitta:r:index]
+file_filter   = docs/_locales/<lang>/LC_MESSAGES/index.po
+source_file   = docs/_build/gettext/index.pot
+type          = PO
+minimum_perc  = 0
+resource_name = index
+
+[o:vyos:p:sagitta:r:installation_cloud_aws]
+file_filter   = docs/_locales/<lang>/LC_MESSAGES/installation/cloud/aws.po
+source_file   = docs/_build/gettext/installation/cloud/aws.pot
+type          = PO
+minimum_perc  = 0
+resource_name = installation_cloud_aws
+
+[o:vyos:p:sagitta:r:installation_cloud_azure]
+file_filter   = docs/_locales/<lang>/LC_MESSAGES/installation/cloud/azure.po
+source_file   = docs/_build/gettext/installation/cloud/azure.pot
+type          = PO
+minimum_perc  = 0
+resource_name = installation_cloud_azure
+
+[o:vyos:p:sagitta:r:installation_cloud_gcp]
+file_filter   = docs/_locales/<lang>/LC_MESSAGES/installation/cloud/gcp.po
+source_file   = docs/_build/gettext/installation/cloud/gcp.pot
+type          = PO
+minimum_perc  = 0
+resource_name = installation_cloud_gcp
+
+[o:vyos:p:sagitta:r:installation_cloud_index]
+file_filter   = docs/_locales/<lang>/LC_MESSAGES/installation/cloud/index.po
+source_file   = docs/_build/gettext/installation/cloud/index.pot
+type          = PO
+minimum_perc  = 0
+resource_name = installation_cloud_index
+
+[o:vyos:p:sagitta:r:installation_cloud_oracel]
+file_filter   = docs/_locales/<lang>/LC_MESSAGES/installation/cloud/oracel.po
+source_file   = docs/_build/gettext/installation/cloud/oracel.pot
+type          = PO
+minimum_perc  = 0
+resource_name = installation_cloud_oracel
+
+[o:vyos:p:sagitta:r:installation_image]
+file_filter   = docs/_locales/<lang>/LC_MESSAGES/installation/image.po
+source_file   = docs/_build/gettext/installation/image.pot
+type          = PO
+minimum_perc  = 0
+resource_name = installation_image
+
+[o:vyos:p:sagitta:r:installation_index]
+file_filter   = docs/_locales/<lang>/LC_MESSAGES/installation/index.po
+source_file   = docs/_build/gettext/installation/index.pot
+type          = PO
+minimum_perc  = 0
+resource_name = installation_index
+
+[o:vyos:p:sagitta:r:installation_install]
+file_filter   = docs/_locales/<lang>/LC_MESSAGES/installation/install.po
+source_file   = docs/_build/gettext/installation/install.pot
+type          = PO
+minimum_perc  = 0
+resource_name = installation_install
+
+[o:vyos:p:sagitta:r:installation_migrate-from-vyatta]
+file_filter   = docs/_locales/<lang>/LC_MESSAGES/installation/migrate-from-vyatta.po
+source_file   = docs/_build/gettext/installation/migrate-from-vyatta.pot
+type          = PO
+minimum_perc  = 0
+resource_name = installation_migrate-from-vyatta
+
+[o:vyos:p:sagitta:r:installation_update]
+file_filter   = docs/_locales/<lang>/LC_MESSAGES/installation/update.po
+source_file   = docs/_build/gettext/installation/update.pot
+type          = PO
+minimum_perc  = 0
+resource_name = installation_update
+
+[o:vyos:p:sagitta:r:installation_virtual_docker]
+file_filter   = docs/_locales/<lang>/LC_MESSAGES/installation/virtual/docker.po
+source_file   = docs/_build/gettext/installation/virtual/docker.pot
+type          = PO
+minimum_perc  = 0
+resource_name = installation_virtual_docker
+
+[o:vyos:p:sagitta:r:installation_virtual_eve-ng]
+file_filter   = docs/_locales/<lang>/LC_MESSAGES/installation/virtual/eve-ng.po
+source_file   = docs/_build/gettext/installation/virtual/eve-ng.pot
+type          = PO
+minimum_perc  = 0
+resource_name = installation_virtual_eve-ng
+
+[o:vyos:p:sagitta:r:installation_virtual_gns3]
+file_filter   = docs/_locales/<lang>/LC_MESSAGES/installation/virtual/gns3.po
+source_file   = docs/_build/gettext/installation/virtual/gns3.pot
+type          = PO
+minimum_perc  = 0
+resource_name = installation_virtual_gns3
+
+[o:vyos:p:sagitta:r:installation_virtual_index]
+file_filter   = docs/_locales/<lang>/LC_MESSAGES/installation/virtual/index.po
+source_file   = docs/_build/gettext/installation/virtual/index.pot
+type          = PO
+minimum_perc  = 0
+resource_name = installation_virtual_index
+
+[o:vyos:p:sagitta:r:installation_virtual_libvirt]
+file_filter   = docs/_locales/<lang>/LC_MESSAGES/installation/virtual/libvirt.po
+source_file   = docs/_build/gettext/installation/virtual/libvirt.pot
+type          = PO
+minimum_perc  = 0
+resource_name = installation_virtual_libvirt
+
+[o:vyos:p:sagitta:r:installation_virtual_proxmox]
+file_filter   = docs/_locales/<lang>/LC_MESSAGES/installation/virtual/proxmox.po
+source_file   = docs/_build/gettext/installation/virtual/proxmox.pot
+type          = PO
+minimum_perc  = 0
+resource_name = installation_virtual_proxmox
+
+[o:vyos:p:sagitta:r:installation_virtual_vmware]
+file_filter   = docs/_locales/<lang>/LC_MESSAGES/installation/virtual/vmware.po
+source_file   = docs/_build/gettext/installation/virtual/vmware.pot
+type          = PO
+minimum_perc  = 0
+resource_name = installation_virtual_vmware
+
+[o:vyos:p:sagitta:r:installation_vyos-on-baremetal]
+file_filter   = docs/_locales/<lang>/LC_MESSAGES/installation/vyos-on-baremetal.po
+source_file   = docs/_build/gettext/installation/vyos-on-baremetal.pot
+type          = PO
+minimum_perc  = 0
+resource_name = installation_vyos-on-baremetal
+
+[o:vyos:p:sagitta:r:introducing_about]
+file_filter   = docs/_locales/<lang>/LC_MESSAGES/introducing/about.po
+source_file   = docs/_build/gettext/introducing/about.pot
+type          = PO
+minimum_perc  = 0
+resource_name = introducing_about
+
+[o:vyos:p:sagitta:r:introducing_history]
+file_filter   = docs/_locales/<lang>/LC_MESSAGES/introducing/history.po
+source_file   = docs/_build/gettext/introducing/history.pot
+type          = PO
+minimum_perc  = 0
+resource_name = introducing_history
+
+[o:vyos:p:sagitta:r:operation_boot-options]
+file_filter   = docs/_locales/<lang>/LC_MESSAGES/operation/boot-options.po
+source_file   = docs/_build/gettext/operation/boot-options.pot
+type          = PO
+minimum_perc  = 0
+resource_name = operation_boot-options
+
+[o:vyos:p:sagitta:r:operation_index]
+file_filter   = docs/_locales/<lang>/LC_MESSAGES/operation/index.po
+source_file   = docs/_build/gettext/operation/index.pot
+type          = PO
+minimum_perc  = 0
+resource_name = operation_index
+
+[o:vyos:p:sagitta:r:operation_information]
+file_filter   = docs/_locales/<lang>/LC_MESSAGES/operation/information.po
+source_file   = docs/_build/gettext/operation/information.pot
+type          = PO
+minimum_perc  = 0
+resource_name = operation_information
+
+[o:vyos:p:sagitta:r:operation_password-recovery]
+file_filter   = docs/_locales/<lang>/LC_MESSAGES/operation/password-recovery.po
+source_file   = docs/_build/gettext/operation/password-recovery.pot
+type          = PO
+minimum_perc  = 0
+resource_name = operation_password-recovery
+
+[o:vyos:p:sagitta:r:operation_raid]
+file_filter   = docs/_locales/<lang>/LC_MESSAGES/operation/raid.po
+source_file   = docs/_build/gettext/operation/raid.pot
+type          = PO
+minimum_perc  = 0
+resource_name = operation_raid
+
+[o:vyos:p:sagitta:r:quick-start]
+file_filter   = docs/_locales/<lang>/LC_MESSAGES/quick-start.po
+source_file   = docs/_build/gettext/quick-start.pot
+type          = PO
+minimum_perc  = 0
+resource_name = quick-start
+
+[o:vyos:p:sagitta:r:troubleshooting_index]
+file_filter   = docs/_locales/<lang>/LC_MESSAGES/troubleshooting/index.po
+source_file   = docs/_build/gettext/troubleshooting/index.pot
+type          = PO
+minimum_perc  = 0
+resource_name = troubleshooting_index
+
