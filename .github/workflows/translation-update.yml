@@ -8,7 +8,7 @@ on:
 jobs:
   translation-update:
     runs-on: ubuntu-latest
-    if: github.repository == 'vyos/vyos-documentation'
+    #if: github.repository == 'vyos/vyos-documentation'
     steps:
       - uses: actions/checkout@v2
         with:
