@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: VyOS 1.4\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-11-08 21:25+0000\n"
+"POT-Creation-Date: 2022-11-08 21:37+0000\n"
 "PO-Revision-Date: 2022-11-08 21:25+0000\n"
 "Last-Translator: Robert Göhler, 2022\n"
 "Language-Team: German (Germany) (https://www.transifex.com/vyos/teams/155110/de_DE/)\n"
@@ -20,3 +20,11 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: de_DE\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../index.rst:61
+msgid "First Steps"
+msgstr "Erste Schritte"
+
+#: ../../index.rst:5 c3e8185c6f334a01bafad4de429ebf8d
+msgid "VyOS User Guide"
+msgstr "VyOS Benutzer Dokumentation"
