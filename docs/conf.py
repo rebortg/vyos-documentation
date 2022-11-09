@@ -75,7 +75,7 @@ master_doc = 'index'
 language = None
 
 # https://docs.readthedocs.io/en/stable/guides/manage-translations-sphinx.html#create-translatable-files
-locale_dirs = ['_locale']
+locale_dirs = ['locale/']
 gettext_compact = False
 gettext_uuid = True
 
