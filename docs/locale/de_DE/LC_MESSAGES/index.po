@@ -27,4 +27,4 @@ msgstr "Erste Schritte"
 
 #: ../../index.rst:5 c3e8185c6f334a01bafad4de429ebf8d
 msgid "VyOS User Guide"
-msgstr "VyOS Benutzer Dokumentation"
+msgstr "VyOS Benutzer Dokumentation2"
