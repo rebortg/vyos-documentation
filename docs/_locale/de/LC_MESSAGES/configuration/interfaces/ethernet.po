@@ -1,0 +1,50 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, VyOS maintainers and contributors
+# This file is distributed under the same license as the VyOS package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Robert Göhler, 2022
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: VyOS 1.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-11-10 19:48+0000\n"
+"PO-Revision-Date: 2022-11-08 21:25+0000\n"
+"Last-Translator: Robert Göhler, 2022\n"
+"Language-Team: German (Germany) (https://www.transifex.com/vyos/teams/155110/de_DE/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: de_DE\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../configuration/interfaces/ethernet.rst:7
+#: 1811b5041b95405d953e41aa6212c775
+msgid "Ethernet"
+msgstr "Ethernet"
+
+#: ../../configuration/interfaces/ethernet.rst:9
+#: 16ff3553ec6f4b0883052c36813f53d7
+msgid ""
+"This will be the most widely used interface on a router carrying traffic to "
+"the real world."
+msgstr ""
+"Dies wird die am weitesten verbreitete Schnittstelle auf einem Router sein, "
+"der Datenverkehr in die reale Welt überträgt."
+
+#: ../../configuration/interfaces/ethernet.rst:17
+#: 5797f0eefd7e44a08eff14a44f7d5d45
+msgid "Common interface configuration"
+msgstr "Übliche Interface Konfiguration"
+
+#: ../../_include/interface-disable-flow-control.txt:16
+#: 64cceb162909411c98b6615a937ff5bc
+msgid ""
+"Use this command to disable the generation of Ethernet flow control (pause "
+"frames)."
+msgstr ""
+"Benutze diese Einstellung um die Erstellung von Ethernet flow control zu "
+"deaktivieren."
