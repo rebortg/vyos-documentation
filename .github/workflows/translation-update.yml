@@ -37,11 +37,11 @@ jobs:
         run: |
           sh .tx/tx.sh
       
-      - name: push new resources
-        run: |
-          tx push -s
-        env:
-          TX_TOKEN: ${{ secrets.TX_TOKEN }}
+      #- name: push new resources
+      #  run: |
+      #    tx push -s
+      #  env:
+      #    TX_TOKEN: ${{ secrets.TX_TOKEN }}
       
       - name: pull translations
         # -l de_DE,uk_UA
