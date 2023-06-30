@@ -1,0 +1,24 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Localazy (https://localazy.com)\n"
+"Project-Id-Version: vyos-documentation\n"
+"Language: de\n"
+"Plural-Forms: nplurals=2; plural=(n==1) ? 0 : 1;\n"
+
+#: ../../automation/index.rst:6
+#: e88cb6813a0348b599f61a4cbb400153
+msgid "Nornir"
+msgstr "Nornir"
+
+#: ../../automation/index.rst:3
+#: 7b496700703543d29c75f4545385ff73
+msgid "VyOS Automation"
+msgstr "VyOS Automation"
+
+#: ../../automation/index.rst:7
+#: da8843f92eb34e03b23b622812920da7
+msgid "startup scripts"
+msgstr "startup scripts"
